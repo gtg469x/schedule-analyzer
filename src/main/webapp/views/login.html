@@ -1,0 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>administrator login</title>
+		<script src="./scripts/requestUtil.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<h1>login</h1>
+		<p/>
+		<form action="#">
+			Username: <input type="text" id="uName"/><br/>
+			Password: <input type="text" id="pass"/><br/>
+			<input type="button" value="login" onclick='adminLogin("uName", "pass", "adminLoginRes")'/>
+		</form>
+		<div id="adminLoginRes"></div>
+</html>
