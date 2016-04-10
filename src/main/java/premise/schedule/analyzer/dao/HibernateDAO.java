@@ -7,6 +7,4 @@ public interface HibernateDAO<T> {
 	T get(Long id);
 	
 	void write(T object);
-	
-	Session getCurrentSession();
 }

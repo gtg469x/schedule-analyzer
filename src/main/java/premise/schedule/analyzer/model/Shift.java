@@ -15,4 +15,28 @@ public class Shift {
 	DateTime start;
 	
 	DateTime end;
+
+	public User getUser() {
+		return user;
+	}
+
+	public void setUser(User user) {
+		this.user = user;
+	}
+
+	public DateTime getStart() {
+		return start;
+	}
+
+	public void setStart(DateTime start) {
+		this.start = start;
+	}
+
+	public DateTime getEnd() {
+		return end;
+	}
+
+	public void setEnd(DateTime end) {
+		this.end = end;
+	}
 }

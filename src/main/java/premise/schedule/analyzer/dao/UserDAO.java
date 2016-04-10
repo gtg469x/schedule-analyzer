@@ -1,5 +1,8 @@
 package premise.schedule.analyzer.dao;
 
-public interface UserDAO {
+import premise.schedule.analyzer.model.User;
 
+public interface UserDAO extends HibernateDAO<User> {
+
+	void createUser(User user);
 }
